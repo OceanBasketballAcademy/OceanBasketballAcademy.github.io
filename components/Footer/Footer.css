@@ -1,0 +1,63 @@
+.footer {
+  display: flex;
+  align-items: center;
+  margin: -0.5rem -3.5rem;
+  position: relative;
+  margin-top: -7rem;
+}
+.f-content {
+  position: absolute;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 53%;
+  margin-top: 7rem;
+  gap: 1rem;
+  color: white;
+}
+.f-content > :nth-child(1){
+  font-size: 0.8;
+  font-weight:bold;
+}
+.f-content > :nth-child(2){
+  font-size: 0.8rem;
+}
+.f-content > :nth-child(3){
+  font-size: 0.8rem;
+}
+.f-content > :nth-child(4){
+  font-size: 0.8rem;
+}
+.m-content {
+  position: absolute;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 153%;
+  margin-top: 5rem;
+  gap: 1rem;
+  color: white;
+}
+.m-content > :nth-child(1){
+  font-size: 0.8;
+  font-weight:bold;
+}
+.m-content > :nth-child(2){
+  font-size: 0.8rem;
+}
+.m-content > :nth-child(3){
+  font-size: 0.8rem;
+}
+
+@media screen and (max-width: 480px){
+  .f-content{
+    transform: scale(.5);
+    top: -5rem;
+  }
+  .m-content {
+    transform: scale(.5);
+    top: -2.2rem;
+  }
+}
